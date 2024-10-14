@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Book Your Dream Vacation in Goa</h1>
+    </header>
+    <main>
+        <section class="booking">
+            <h2>Welcome to Goa</h2>
+            <h3>Beautiful Beach in Goa</h3>
+            <p>Enjoy your stay at our luxurious resort located right on the beach.<br> Relax, unwind, and experience the beauty of Goa.</p>
+            <form action="https://your-payment-gateway-url.com" method="POST">
+                <div class="left-column">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="check-in">Check-in Date:</label>
+                    <input type="date" id="check-in" name="check-in">
+                    <label for="check-out">Check-out Date:</label>
+                    <input type="date" id="check-out" name="check-out">
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="10">
+                </div>
+                <div class="right-column">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Pay Now</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <section class="section-2">
+        <div>
+            <h2>Word Goa Beach</h2>
+            <p>The best place</p>
+            <p>Couples strolling<br>Hand in hand<br>Time with nature<br>Oh<br>So grand<br>Family fun<br>Friends in tow,<br>Here in Goa<br>Joy will flow</p>
+        </div>
+    </section>
+    <section class="section-3">
+        <div>
+            <h2>Baga Beach</h2>
+            <p>The best visit beaches in Goa</p>
+            <p>Feel the rhythm<br>Feel the beat<br>Life in Goa<br>It’s so sweet<br>Watch the sunset<br>Paint the sky<br>In Goa<br>Love is flying high</p>
+        </div>
+    </section>
+    <section class="section-4">
+        <div>
+            <h2>Gunpowder Restaurants</h2>
+            <p>Great cuisine<br>Taste the spice<br>Foods so tasty<br>Feels so nice<br>Night parties<br>Dance till dawn<br>Romantic moments<br>All night long</p>
+        </div>
+    </section>
+</body>
+</html>

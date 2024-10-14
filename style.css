@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+.booking {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 80%; 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 1em; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    font-family: "jost";
+}
+
+.left-column, .right-column {
+    width: 100%; 
+    padding: 0 1em; 
+}
+
+header {
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%; 
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 3px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bff55;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration-thickness: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTuJq_k7ULvZubXUnLyjm0OcU38KB0DvZ_OA&s");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures full coverage */
+    background-attachment: fixed;
+}
+.section-2{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://static.toiimg.com/thumb/msid-55310626,width-748,height-499,resizemode=4,imgsize-175052/.jpg");
+}
+
+.section-3 {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://cdn.pixabay.com/photo/2017/05/30/05/46/goa-2355883_640.jpg");
+}
+
+.section-4 {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://assets.gqindia.com/photos/618b8d9efc922dcd74d44395/master/w_1600%2Cc_limit/IMG-3269.jpg");
+}
